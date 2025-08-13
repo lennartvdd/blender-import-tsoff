@@ -11,7 +11,7 @@
 bl_info = {
     "name": "Import Triangle Splatting OFF",
     "author": "Lennart van den Dool",
-    "version": (1, 0, 0),
+    "version": (1, 0, 1),
     "blender": (3, 0, 0),
     "location": "File > Import > Triangle Splatting OFF",
     "description": "Import OFF/COFF/NOFF and Triangle Splatting variants with per-face/vertex color and automatic material hookup (alpha + additive emission).",

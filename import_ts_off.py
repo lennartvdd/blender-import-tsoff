@@ -293,6 +293,13 @@ class ImportTSOFFStreamingAutoMatV2(Operator, ImportHelper):
                 links.new(attr.outputs['Alpha'], principled.inputs['Alpha'])
                 alpha_connected = True
                 mat.blend_method = 'BLEND'
+                try:
+                    mat.use_transparency_overlap = False
+                except Exception:
+                    try:
+                        mat.show_transparent_back = False
+                    except Exception:
+                        pass
                 # avoid heavy shadows from translucent splats
                 try:
                     mat.shadow_method = 'NONE'
