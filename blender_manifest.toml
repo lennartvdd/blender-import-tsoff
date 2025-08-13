@@ -1,0 +1,28 @@
+schema_version = "1.0.0"
+
+id = "import_tsoff"
+version = "1.2.0"
+name = "Import Triangle Splatting OFF"
+tagline = "Import OFF/COFF/NOFF and Triangle Splatting variants with per-face/vertex color and automatic material hookup (alpha + additive emission)."
+maintainer = "Lennart van den Dool"
+type = "add-on"
+
+# # Optional: link to documentation, support, source files, etc
+# website = "https://extensions.blender.org/add-ons/my-example-package/"
+
+# # Optional: tag list defined by Blender and server, see:
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+# tags = ["Object File Format", "Triangle Splatting", "Radiance Field"]
+
+blender_version_min = "3.0.0"
+# # Optional: Blender version that the extension does not support, earlier versions are supported.
+# # This can be omitted and defined later on the extensions platform if an issue is found.
+# blender_version_max = "4.5.0"
+
+license = [
+  "SPDX:MIT",
+]
+
+copyright = [
+   "2025 Lennart van den Dool",
+]
